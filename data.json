@@ -1,0 +1,14 @@
+{
+  "0": {
+    "text": "Choose the main character",
+    "options": {
+      "Gin": "1",
+      "Tequila": "2",
+      "Vodka": "3",
+      "Rum": "4",
+      "Cognac": "5",
+      "Whiskey": "6",
+      "Sparkling wine": "7"
+    }
+  }
+}
