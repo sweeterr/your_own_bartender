@@ -1,14 +1,137 @@
 {
-  "0": {
-    "text": "Choose the main character",
-    "options": {
-      "Gin": "1",
-      "Tequila": "2",
-      "Vodka": "3",
-      "Rum": "4",
-      "Cognac": "5",
-      "Whiskey": "6",
-      "Sparkling wine": "7"
-    }
+ "0": {
+   "text": "Start",
+   "next_question": "Choose the main character",
+   "options": ["1", "2", "3", "4", "5", "6", "7"]
+  },
+  "1": {
+    "text": "Gin",
+    "next_question": "Kinda stiff?",
+    "options": ["1.1", "1.2"]
+  },
+  "1.1": {
+    "text": "Boozy!",
+    "next_question": "Martini-esque?",
+    "options": ["1.1.1", "1.1.2"]
+  },
+  "1.1.1": {
+    "text": "Yes",
+    "next_question": "Fino Martini",
+    "options": []
+  },
+  "1.1.2": {
+    "text": "No",
+    "next_question": "Tale of Two Cities",
+    "options": []
+  },
+  "1.2": {
+    "text": "No, easy-drinking",
+    "next_question": "Pick an ingredient",
+    "options": ["1.2.1", "1.2.2", "1.2.3", "1.2.4"]
+  },
+  "1.2.1": {
+    "text": "Basil",
+    "next_question": "Basil Gimlet",
+    "options": []
+  },
+  "1.2.2": {
+    "text": "Cucumber",
+    "next_question": "Gin Sonic",
+    "options": []
+  },
+  "1.2.3": {
+    "text": "Peach",
+    "next_question": "The Duck Race",
+    "options": []
+  },
+  "1.2.4": {
+    "text": "Lemon",
+    "next_question": "About That Time",
+    "options": []
+  },
+  "2": {
+    "text": "Tequila",
+    "next_question": "Pull out the blender?",
+    "options": ["2.1", "2.2"]
+  },
+  "2.1": {
+    "text": "Yes",
+    "next_question": "Truly Great Frozen Margarita",
+    "options": []
+  },
+  "2.2": {
+    "text": "Nah",
+    "next_question": "My favourite drinks are...",
+    "options": ["2.2.1", "2.2.2", "2.2.3"]
+  },
+  "2.2.1": {
+    "text": "Juicy",
+    "next_question": "Watermelon Margarita",
+    "options": []
+  },
+  "2.2.2": {
+    "text": "Light",
+    "next_question": "The Liggett",
+    "options": []
+  },
+  "2.2.3": {
+    "text": "Tart",
+    "next_question": "Intrigued by sherry?",
+    "options": ["2.2.3.1", "2.2.3.2"]
+  },
+  "2.2.3.1": {
+    "text": "Sure",
+    "next_question": "Hello from Jerez",
+    "options": []
+  },
+  "2.2.3.2": {
+    "text": "Not today",
+    "next_question": "Juicy Paloma",
+    "options": []
+  },
+  "3": {
+    "text": "Vodka",
+    "next_question": "A little fruity?",
+    "options": ["3.1", "3.2", "3.3"]
+  },
+  "3.1": {
+    "text": "Always",
+    "next_question": "Cherry on Top",
+    "options": []
+  },
+  "3.2": {
+    "text": "No",
+    "next_question": "Sundown Spritz",
+    "options": []
+  },
+  "3.3": {
+    "text": "How about citrus?",
+    "next_question": "Rosemary Collins",
+    "options": []
+  },
+  "4": {
+    "text": "Rum",
+    "next_question": "Do you own a cocktail shaker?",
+    "options": ["OO", "OO"]
+  },
+  "5": {
+    "text": "Cognac",
+    "next_question": "Can you get your hands on some Meyer lemons?",
+    "options": ["OO", "OO"]
+  },
+  "6": {
+    "text": "Whiskey",
+    "next_question": "I like drinks that are...",
+    "options": ["OO", "OO"]
+  },
+  "7": {
+    "text": "Sparkling wine",
+    "next_question": "Pick a color",
+    "options": ["OO", "OO"]
+  },
+  "NN": {
+    "text": "TT",
+    "next_question": "QQ",
+    "options": ["OO", "OO"]
   }
 }

@@ -7,4 +7,4 @@ COPY . .
 
 ENTRYPOINT ["python"]
 
-CMD ["bot.py"]
+CMD ["bot.py --webhook"]

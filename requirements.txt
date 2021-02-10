@@ -2,3 +2,4 @@ pyyaml
 python-telegram-bot
 python-telegram-bot[socks]
 PySocks
+beautifulsoup4
